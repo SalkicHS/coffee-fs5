@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Amatic SC", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s linear;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+}
+
+.btn {
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.btn-yellow {
+  background: #FACB36;
+  color: #444646;
+}
+
+nav {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  z-index: 111;
+}
+nav .container {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .container ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container ul a {
+  color: #FACB36;
+  margin-left: 30px;
+  text-decoration: none;
+}
+nav .container ul a:hover {
+  color: white;
+}
+
+.mainHeader {
+  /*background-image: url(img/coffee-slajd-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;*/
+  position: relative;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mainHeader hgroup {
+  position: absolute;
+  top: 50%;
+  left: 50% transform translate(-50%, -50%);
+}
+.mainHeader img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+@import 'vars';
+@import 'mixins';
+@import 'globals'; 
+
+//nav 
+nav {
+    position: fixed;
+    background: rgba($black, .8);
+    width: 100%;
+    z-index: 111;
+    .container {
+        border: 1px solid red;
+        @include flex();
+        margin: auto;
+        ul {
+            @include flex;
+            a{
+                color: $accents;
+                margin-left: 30px;
+                text-decoration: none;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// header
+.mainHeader {
+    /*background-image: url(img/coffee-slajd-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;*/
+    position: relative;
+    hgroup {
+        position: absolute;
+        top: 50%;
+        left: 50%
+        transform translate(-50%, -50%);
+    }
+    img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        height: 100vh;
+    }
+    color: $white;
+    @include flex($justify: center, $align: center);
+
+}
+
+
+   

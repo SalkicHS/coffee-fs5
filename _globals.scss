@@ -33,6 +33,29 @@ h1, h2, h3, h4 {
     width: 80%;
 }
 
+nav {
+    position: fixed;
+    background: rgba($black, .8);
+    width: 100%;
+    z-index: 111;
+    .container {
+        border: 1px solid red;
+        @include flex();
+        margin: auto;
+        ul {
+            @include flex;
+            a{
+                color: $accents;
+                margin-left: 30px;
+                text-decoration: none;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
 .btn {
 padding: 10px 40px;
 display: inline-block;
@@ -43,4 +66,13 @@ border-radius: 10px;
 .btn-yellow {
     background: $accents;
     color: $text;
+}
+
+.py {
+    padding: 80px 0;
+}
+
+img {
+    width: 100%;
+    display: block;
 }

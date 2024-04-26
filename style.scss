@@ -2,29 +2,7 @@
 @import 'mixins';
 @import 'globals'; 
 
-//nav 
-nav {
-    position: fixed;
-    background: rgba($black, .8);
-    width: 100%;
-    z-index: 111;
-    .container {
-        border: 1px solid red;
-        @include flex();
-        margin: auto;
-        ul {
-            @include flex;
-            a{
-                color: $accents;
-                margin-left: 30px;
-                text-decoration: none;
-                &:hover {
-                    color: $white;
-                }
-            }
-        }
-    }
-}
+
 
 // header
 .mainHeader {
@@ -48,6 +26,34 @@ nav {
     color: $white;
     @include flex($justify: center, $align: center);
 
+}
+
+// ponuda
+.ponuda {
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 50px 0;
+    .prvi {
+        padding: 40px 0 40px 0;
+    }
+    h2 {
+        color: $accents;
+    }
+   
+    hgroup {
+        @include flex; 
+        padding-top: 20px;
+        article {
+            width: 30%;
+            img {
+                border-radius: 50%;
+                border: 3px solid $accents;
+            }
+            h3 {
+                padding: 58px 0 10px 0;
+            }
+        }
+    }
 }
 
 

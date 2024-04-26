@@ -34,18 +34,6 @@ ul {
   width: 80%;
 }
 
-.btn {
-  padding: 10px 40px;
-  display: inline-block;
-  margin-top: 15px;
-  border-radius: 10px;
-}
-
-.btn-yellow {
-  background: #FACB36;
-  color: #444646;
-}
-
 nav {
   position: fixed;
   background: rgba(0, 0, 0, 0.8);
@@ -77,6 +65,27 @@ nav .container ul a:hover {
   color: white;
 }
 
+.btn {
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.btn-yellow {
+  background: #FACB36;
+  color: #444646;
+}
+
+.py {
+  padding: 80px 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
 .mainHeader {
   /*background-image: url(img/coffee-slajd-1.jpg);
   background-position: center;
@@ -101,4 +110,34 @@ nav .container ul a:hover {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100vh;
+}
+
+.ponuda {
+  text-align: center;
+  margin: auto;
+  padding: 100px 0 50px 0;
+}
+.ponuda .prvi {
+  padding: 40px 0 40px 0;
+}
+.ponuda h2 {
+  color: #FACB36;
+}
+.ponuda hgroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.ponuda hgroup article {
+  width: 30%;
+}
+.ponuda hgroup article img {
+  border-radius: 50%;
+  border: 3px solid #FACB36;
+}
+.ponuda hgroup article h3 {
+  padding: 58px 0 10px 0;
 }/*# sourceMappingURL=style.css.map */

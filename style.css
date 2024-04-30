@@ -32,6 +32,7 @@ ul {
 
 .container {
   width: 80%;
+  margin: auto;
 }
 
 nav {
@@ -84,6 +85,11 @@ nav .container ul a:hover {
 img {
   width: 100%;
   display: block;
+}
+
+.text-center {
+  text-align: center;
+  margin: auto;
 }
 
 .mainHeader {
@@ -140,4 +146,94 @@ img {
 }
 .ponuda hgroup article h3 {
   padding: 58px 0 10px 0;
+}
+
+.meni {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.meni div h2 {
+  color: #FACB36;
+  text-align: center;
+  padding-top: 100px;
+}
+.meni div:first-child {
+  flex: 0 0 60%;
+}
+.meni div:first-child .row {
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.meni div:first-child .row .meni-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 50%;
+  padding: 25px 10px;
+}
+.meni div:first-child .row .meni-item .img {
+  flex: 0 0 40%;
+}
+.meni div:first-child .row .meni-item .img img {
+  width: 100px;
+  border-radius: 50%;
+}
+.meni div:first-child .row .meni-item .text {
+  color: rgb(247, 244, 244);
+  flex: 0 0 55%;
+}
+.meni div:first-child .row .meni-item .text h3 {
+  color: #FACB36;
+  font-size: 27px;
+}
+.meni div:first-child .row .meni-item .text p {
+  color: white;
+  padding: 10px 0;
+}
+.meni div:first-child .row .meni-item .text span {
+  color: #FACB36;
+  font-weight: bold;
+}
+.meni div:last-child {
+  flex: 0 0 40%;
+}
+
+.usluge h2 {
+  color: #FACB36;
+}
+.usluge h2 + p {
+  padding: 20px 0 76px 0;
+  color: #444646;
+}
+.usluge article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: strech;
+}
+.usluge article div {
+  flex: 0 0 50%;
+}
+.usluge article div:last-child {
+  background-color: antiquewhite;
+  padding: 80px 40px;
+}
+.usluge article div:last-child h3 {
+  color: #FACB36;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+.usluge article:nth-child(even) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=style.css.map */

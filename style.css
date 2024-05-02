@@ -42,7 +42,6 @@ nav {
   z-index: 111;
 }
 nav .container {
-  border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

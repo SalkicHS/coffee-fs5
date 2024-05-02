@@ -40,7 +40,6 @@ nav {
     width: 100%;
     z-index: 111;
     .container {
-        border: 1px solid red;
         @include flex();
         margin: auto;
         ul {

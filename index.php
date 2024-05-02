@@ -8,6 +8,8 @@
 
 <?php include 'template_parts/part-usluge.php'; ?> 
 
+<?php include 'template_parts/part-poruci.php'; ?> 
+
 <?php include 'template_parts/footer.php'; ?> 
 
 

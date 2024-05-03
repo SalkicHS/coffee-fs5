@@ -10,6 +10,8 @@
 
 <?php include 'template_parts/part-poruci.php'; ?> 
 
+<?php include 'template_parts/part-contact.php'; ?> 
+
 <?php include 'template_parts/footer.php'; ?> 
 
 

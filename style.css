@@ -77,6 +77,16 @@ nav .container ul a:hover {
   color: #444646;
 }
 
+.btn-yellow-outline {
+  background: transparent;
+  border: 2px solid #FACB36;
+  color: #FACB36;
+}
+.btn-yellow-outline:hover {
+  background: #FACB36;
+  color: black;
+}
+
 .py {
   padding: 80px 0;
 }
@@ -89,6 +99,10 @@ img {
 .text-center {
   text-align: center;
   margin: auto;
+}
+
+footer {
+  background: rgb(104, 103, 103);
 }
 
 .mainHeader {
@@ -235,4 +249,148 @@ img {
 }
 .usluge article:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.poruci {
+  background: linear-gradient(to right, rgba(68, 70, 70, 0.8), rgba(0, 0, 0, 0.8)), url(img/coffee\ 5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.poruci p {
+  color: white;
+  padding: 25px 0;
+  width: 70%;
+}
+.poruci h2 {
+  color: #FACB36;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
+}
+.contact div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact div ul {
+  flex: 0 0 30%;
+  line-height: 36px;
+}
+.contact div ul li i {
+  color: #FACB36;
+  margin-right: 15px;
+  font-size: 1.3rem;
+}
+.contact div form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 70%;
+}
+.contact div form input {
+  flex: 0 0 49%;
+  padding: 15px;
+}
+.contact div form textarea {
+  flex: 0 0 100%;
+  margin: 20px 0;
+  height: 137px;
+}
+.contact div button {
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.contact div button:hover {
+  background: black;
+  color: white;
+}
+
+footer img {
+  width: 500px;
+  margin: auto;
+}
+footer p {
+  color: white;
+  padding: 25px 0;
+}
+footer form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+footer form input {
+  padding: 15px;
+  flex: 0 0 49%;
+}
+footer form a {
+  padding: 15px;
+  background: black;
+  border-radius: 10px;
+  color: #FACB36;
+  margin-left: 5px;
+  flex: 0 0 49%;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.bottom-bar {
+  padding: 20px 0;
+  background: #FACB36;
+}
+.bottom-bar a {
+  color: black;
+}
+.bottom-bar a:hover {
+  color: #999999;
+}
+
+.headers {
+  position: relative;
+}
+.headers img {
+  filter: brightness(0.5);
+}
+.headers h1 {
+  color: #FACB36;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dogadjaji {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dogadjaji div {
+  overflow: hidden;
+  box-shadow: 0 3px 6px #505050;
+  border-radius: 20px;
+  flex: 0 0 30%;
+}
+.dogadjaji div div {
+  padding: 20px;
+}
+.dogadjaji div div h3 {
+  margin: 13px 0;
+}
+.dogadjaji div div span {
+  color: #FACB36;
+  display: inline-block;
+  margin-bottom: 25px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */

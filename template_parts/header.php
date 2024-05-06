@@ -17,7 +17,9 @@
             <ul>
               <li><a href="index.php">Home</a></li>
               <li><a href="dogadjaji.php">Dogadjaji</a></li>
-              <li><a href="">Kontakt</a></li>
+              <li><a href="usluga.php">Usluge</a></li>
+              <li><a href="meni.php">Meni</a></li>
+              <li><a href="ponuda.php">Ponuda</a></li>
             </ul>
            </div>
         </nav>
